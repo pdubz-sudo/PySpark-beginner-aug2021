@@ -17,10 +17,11 @@ Then import the [notebook](https://databricks-prod-cloudfront.cloud.databricks.c
 Upload the file on `workshop/SalesRecords.csv`:
 
 ![](workshop/pictures/databricks_upload.gif)
+(There is no need to create a table after uploading a file)
 
 You should be good to go back and start running your notebook now :)
 
-(Pro tip: run a cell with `Shift + Enter`)
+Pro tip: run a cell with `Shift + Enter`
 
 ## Requirements
 Create a trial account on https://community.cloud.databricks.com/
@@ -40,7 +41,7 @@ Go to `My Notebooks` on your account on https://www.zepl.com/
 
 ![](workshop/pictures/your-notebooks.png)
 
-Click `Import` on the top right corner of the page
+Click `Import` in the top right corner of the page
 
 ![](workshop/pictures/import.png)
 
