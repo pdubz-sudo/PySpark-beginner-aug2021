@@ -59,3 +59,36 @@ Upload the file on `workshop/SalesRecords.csv`
 You should be good to start running your notebook now :)
 
 (Pro tip: run a cell with `Shift + Enter`)
+
+## Plan C
+
+Wow, have we really reached plan C? Alright, let's go local.
+
+Requirements: Python 3 installed
+
+Steps:
+
+1) Create and activate a virtual environment with
+
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install the requirements with
+
+```
+pip install -r workshop/requirements.txt
+```
+
+Make your virtual environment available on Jupyter with
+
+```
+python -m ipykernel install --user --name=venv
+```
+
+Start your notebook with
+
+```
+jupyter-lab workshop/notebook.ipynb
+```
