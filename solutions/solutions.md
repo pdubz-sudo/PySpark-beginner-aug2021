@@ -20,7 +20,7 @@ cents_dataframe = sales_dataframe.selectExpr("order_id", "unit_price * 100 as un
 def get_cents(dataframe):
   return dataframe.selectExpr("order_id", "unit_price * 100 as unit_price_cents")
 
-display(get_cents(sales_dataframe))
+get_cents(sales_dataframe)
 ```
 
 ### Exercise 2
@@ -86,5 +86,5 @@ def add_random(profit):
   random_number = randint(0, 100)
   return profit + random_number
 
-display(sales_dataframe.withColumn('random_profit', add_random(sales_dataframe.total_profit)))
+sales_dataframe.withColumn('random_profit', add_random(sales_dataframe.total_profit))
 ```
