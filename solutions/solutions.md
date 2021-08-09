@@ -29,7 +29,7 @@ display(get_cents(sales_dataframe))
 low_cost_dataframe = sales_dataframe.filter("unit_cost * 2 <= unit_price")
 ```
 
-## Exercise 2.2
+## Exercise 2.1
 
 ```python
 low_cost_5_rows = low_cost_dataframe.take(5)
