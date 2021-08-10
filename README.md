@@ -33,7 +33,7 @@ Create a trial account on https://community.cloud.databricks.com/
 ## Credits
 This workshop was set up by @pyladiesams and https://github.com/nataliapipas
 
-## Plan B
+## Option B
 
 If, for some reason, Databricks is not available, we'll use a Zepl notebook.
 
@@ -60,7 +60,7 @@ You should be good to start running your notebook now :)
 
 (Pro tip: run a cell with `Shift + Enter`)
 
-## Plan C
+## Option C
 
 Wow, have we really reached plan C? Alright, let's go local.
 
