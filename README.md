@@ -1,7 +1,7 @@
 
 # An introduction to PySpark
 ### Level: Beginner
-### [Presentation](https://docs.google.com/presentation/d/1xRM7Hh1qnqOot1b-HAV_VHsUYl3spUKryE5W2JpPCXw)
+### [Presentation](https://docs.google.com/presentation/d/1UsU5pERa6HbD_qgXgt0kP5c9XZx90CNIBuGoTDgNeVQ/edit?usp=sharing)
 
 ## Project description
 PySpark is a distributed data processing engine widely used in Data Engineering and Data Science. Another way to think of PySpark is a library that allows processing large amounts of data on a single machine or a cluster of machines. We will go through the basic concepts and operations so you will leave the workshop ready to continue learning on your own.
