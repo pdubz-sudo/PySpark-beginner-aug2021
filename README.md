@@ -62,6 +62,8 @@ You should be good to start running your notebook now :)
 
 ## Option C
 
+Wow, have we really reached plan C? Alright, let's go local. Use this method if you don't have java installed on your computer.
+
 Use docker if you don't have spark installed on your computer.
 
 cd where the docker-compose.yml file is.
@@ -76,7 +78,7 @@ When you're done, close everything down by typing `docker-compose down -v` in th
 
 ## Option D
 
-Wow, have we really reached plan D? Alright, let's go local.
+Alright, if your not comfortable with docker you can do this instead.
 
 Requirements: Python 3 installed
 
