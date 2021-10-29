@@ -62,7 +62,21 @@ You should be good to start running your notebook now :)
 
 ## Option C
 
-Wow, have we really reached plan C? Alright, let's go local.
+Use docker if you don't have spark installed on your computer.
+
+cd where the docker-compose.yml file is.
+
+In the terminal, run the command `docker-compose up` which will automatically start building the image.
+
+Click the link which can also be reached with `localhost:8888`
+
+Type in the password `pyspark`
+
+When you're done, close everything down by typing `docker-compose down -v` in the terminal.
+
+## Option D
+
+Wow, have we really reached plan D? Alright, let's go local.
 
 Requirements: Python 3 installed
 
